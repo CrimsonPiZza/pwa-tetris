@@ -34,7 +34,7 @@
 </style>
 
 <style>
-* {
+body {
 	user-select: none;
 	-moz-user-select: -moz-none;
 	-khtml-user-select: none;
