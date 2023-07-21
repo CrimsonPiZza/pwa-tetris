@@ -2,7 +2,7 @@ import { want } from '../../unit/'
 import event from '../../unit/event'
 import states from '../states'
 import { music } from '../../unit/music'
-import { fromJS } from 'immutable'
+import { fromJS, List } from 'immutable'
 const down = store => {
   store.commit('key_down', true)
   if (store.state.cur !== null) {
